@@ -37,7 +37,7 @@ function About() {
         <h1 className="project-heading">
         <strong className="purple">Skills</strong>
         </h1>
-        <p style = "font-size:20px">
+        <p>
         <span className="purple">Languages and Databases:</span> Python, SQL, C++, HTML, MySQL <br />
         <span className="purple">Frameworks:</span>Tensorflow, sklearn, Keras<br />
         <span className="purple">Libraries and tools:</span> Numpy, Pandas, Git/Github, Tableau, Matlab<br />
