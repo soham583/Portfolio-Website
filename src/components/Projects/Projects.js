@@ -3,11 +3,11 @@ import { Container, Row, Col } from "react-bootstrap";
 import ProjectCard from "./ProjectCards";
 import Particle from "../Particle";
 import leaf from "../../Assets/Projects/leaf.png";
-import emotion from "../../Assets/Projects/emotion.png";
-import editor from "../../Assets/Projects/codeEditor.png";
-import chatify from "../../Assets/Projects/chatify.png";
-import suicide from "../../Assets/Projects/suicide.png";
-import bitsOfCode from "../../Assets/Projects/blog.png";
+import compress from "../../Assets/Projects/compress.png";
+import covid from "../../Assets/Projects/covid.png";
+import credit from "../../Assets/Projects/credit.png";
+import loco from "../../Assets/Projects/locos.png";
+import steam from "../../Assets/Projects/steam.png";
 
 function Projects() {
   return (
@@ -23,7 +23,7 @@ function Projects() {
         <Row style={{ justifyContent: "center", paddingBottom: "10px" }}>
           <Col md={4} className="project-card">
             <ProjectCard
-              imgPath={chatify}
+              imgPath={leaf}
               isBlog={false}
               title="Plant Disease Detection"
               description="Used the plant disease dataset from Kaggle and trained a image classifer model using 'Tensorflow' framework using CNN and Transfer Learning with 30 classes of various plant leaves. The model was successfully able to detect diseased and healthy leaves of 9 unique plants. I was able to achieve an accuracy of 92% by using InceptionV3 pretrained model."
@@ -34,7 +34,7 @@ function Projects() {
 
           <Col md={4} className="project-card">
             <ProjectCard
-              imgPath={emotion}
+              imgPath={credit}
               isBlog={false}
               title="Credit Card Fraud Detection"
               description="Build model to to recognize fraudulent credit card transactions. Preprocessed imbalanced dataset with Resembling techniques SMOTE and Tomek. Achieved precision of 88% and 80% recall with Random Forest"
@@ -45,7 +45,7 @@ function Projects() {
 
           <Col md={4} className="project-card">
             <ProjectCard
-              imgPath={bitsOfCode}
+              imgPath={steam}
               isBlog={false}
               title="Game Recommender System"
               description="Project utilizes content-based filtering for a robust game recommender system, extracting game data through REST APIs of steamspy and steamstore. Leveraging NLTK and sklearn libraries, we performed word stemming and TF-IDF vectorization for efficient data processing."
@@ -56,7 +56,7 @@ function Projects() {
 
           <Col md={4} className="project-card">
             <ProjectCard
-              imgPath={leaf}
+              imgPath={compress}
               isBlog={false}
               title="Compress Image"
               description="Implement Unsupervised learning algorithm K-Means Clustering to compress the user input image. Used scikit-learn library and Plot-utils library to perform data preprocessing and visualization of data."
@@ -67,7 +67,7 @@ function Projects() {
 
           <Col md={4} className="project-card">
             <ProjectCard
-              imgPath={editor}
+              imgPath={covid}
               isBlog={false}
               title="Classification of COVID19 Chest X ray Images"
               description="Built multi-layer Convolutional Neural Network architecture to detect the covid-19 infected people. Used Tensorflow as backend with Keras library to preprocess and build the neural network architecture. Achieved 96.4% accuracy on the training set and 97.5% accuracy on the test set of the dataset"
@@ -78,7 +78,7 @@ function Projects() {
 
           <Col md={4} className="project-card">
             <ProjectCard
-              imgPath={suicide}
+              imgPath={loco}
               isBlog={false}
               title="Loco App Reviews Analysis"
               description="Conducted thorough analysis of user reviews for the Loco app posted on Google play store. Utilized unsupervised keyword extraction method YAKE to extract and analyze keywords from user eviews, providing additional insights into user sentiment and preferences. Built an interactive Tableau dashboard to summarize the results of the Loco app reviews analysis."

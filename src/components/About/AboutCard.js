@@ -10,7 +10,7 @@ function AboutCard() {
           <p style={{ textAlign: "justify" }}>
             Hi Everyone, I am <span className="purple">Soham Vishwasrao </span>
             from <span className="purple"> Pune, India.</span>
-            <br /> I am A.I. enthusiaste and B.Tech graduate in Chemical Engineeing from IIT Mumbai.
+            <br /> I am A.I. enthusiaste and B.Tech graduate in Chemical Engineein from IIT Mumbai.
             <br />
             Apart from coding, some other activities that I love to do!
           </p>

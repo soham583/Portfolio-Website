@@ -38,7 +38,6 @@ function Home2() {
               </i>
               <br />
               <br />
-              <b className="purple">Node.js</b>
               <i>
                 <b className="purple">
                   {" "}
