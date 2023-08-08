@@ -40,7 +40,7 @@ function About() {
         <p>
         <span className="purple">Languages and Databases:</span> Python, SQL, C++, HTML, MySQL <br />
         <span className="purple">Frameworks:</span>Tensorflow, sklearn, Keras<br />
-        <span className="purple">Libraries and tools:</span> Numpy, Pandas, Git/Github, Tableau, Matlab<br />
+        <span className="purple">Libraries and tools:</span> Numpy, Pandas, OpenCV, Git/Github, Tableau, Matlab<br />
         </p>
       </Container>
     </Container>
